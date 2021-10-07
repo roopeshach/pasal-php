@@ -181,7 +181,7 @@ $user_id = $user['id'];
                     echo '<a  href="cart.php?uid='.$user_id.'&&pid='.$row['id'].'" class="btn btn-primary">Add to Cart</a>';
                     echo '</div>';
                     echo '</div>';
-                    echo '</div>';
+                    echo '</div> <br>';
                 }
             ?>
 
@@ -190,7 +190,7 @@ $user_id = $user['id'];
 
 <br><br>
 <script>
-    var slideIndex = 0;
+var slideIndex = 0;
 showSlides();
 
 function showSlides() {
